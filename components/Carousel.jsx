@@ -176,8 +176,8 @@ export default function Carousel({
               <div className={`${round ? 'p-0 m-0' : 'mb-4 p-5'}`}>
               </div>
               <div className="p-5">
-                <div className="mb-1 font-black text-lg text-white">{item.title}</div>
-                <p className="text-sm text-white">{item.description}</p>
+                <div className="mb-1 font-black text-2xl text-white">{item.title}</div>
+                <p className="text-lg text-white font-medium">{item.description}</p>
               </div>
             </motion.div>
           );

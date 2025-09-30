@@ -1,11 +1,12 @@
+import HomeServices from '@/components/HomeServices'
 import PagesHeader from '@/components/PagesHeader'
 
 const page = () => {
   return (
     <>
-      <PagesHeader image='/services.jpg' text='What We Offer' />
-      <section className='w-full h-screen'>
-        
+      <PagesHeader image='/services.jpg' text='Services' text2='Adapted to fit your business' />
+      <section className='w-full min-h-screen'>
+        <HomeServices />
       </section>
     </>
   )

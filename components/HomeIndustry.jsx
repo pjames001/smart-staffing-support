@@ -13,15 +13,15 @@ const HomeIndustries = () => {
           className="group relative flex flex-nowrap justify-between w-[85vmin] h-[65vmin] my-8 mx-auto rounded-4xl border-8 border-transparent transition-all duration-300 ease-in-out overflow-hidden"
           
         >
-          <div className="overlay relative flex w-full h-full bg-gray-800 p-4 md:p-3 shadow-lg shadow-black transition-all duration-400 ease-in-out z-10 group-hover:-translate-x-[50vmin]">
+          <div className="overlay relative flex w-full h-full bg-gray-800 p-4 xl:p-3 shadow-lg shadow-black transition-all duration-400 ease-in-out z-10 group-hover:-translate-x-[50vmin]">
             <div
-              className="overlay-content relative flex flex-col justify-between w-[15vmin] h-full py-2 pl-2 md:pl-1 border-4 border-transparent transition-all duration-300 ease-in-out delay-200 z-10 group-hover:border-0 group-hover:translate-x-[50vmin]"
+              className="overlay-content relative flex flex-col justify-between w-[15vmin] h-full py-2 pl-2 xl:pl-1 border-4 border-transparent transition-all duration-300 ease-in-out delay-200 z-10 group-hover:border-0 group-hover:translate-x-[50vmin]"
               style={{
                 borderImage:
                   "linear-gradient(to bottom, #F5D41B, #F5D41B) 0 0 0 100%",
               }}
             >
-              <h3 className="animate slide-left pop delay-4 text-[3.25vmin] text-left text-white">
+              <h3 className="animate slide-left pop delay-4 md:text-3xl text-md text-left text-white font-extrabold md:ml-2 ml-0">
                 {industry.title}
               </h3>
             </div>
@@ -29,12 +29,12 @@ const HomeIndustries = () => {
               <Image src={industry.image} alt={industry.title} fill className="object-cover" />
             </div>
           </div>
-          <div className="text absolute top-0 right-0 w-[50vmin] h-full p-12 md:p-6 bg-myYellow">
-            <p className="text-[max(10pt,2.5vmin)] leading-relaxed text-gray-800 mb-10">
+          <div className="text absolute top-0 right-0 w-[50vmin] h-full p-8 xl:p-6 bg-myYellow">
+            <p className="text-[max(10pt,2.5vmin)] leading-relaxed text-gray-800 md:mb-10 mb-6">
               {industry.content}
             </p>
             {/* <CTA link={`/industries/${industry.link}`} text='Learn More' /> */}
-            <Link href={`/industries/${industry.link}`} className="py-2 px-6 bg-gray-600 text-white text-lg rounded-md">
+            <Link href={`/industries${industry.link}`} className="py-2 px-6 bg-gray-600 text-white text-lg rounded-md">
               Learn More
             </Link>
           </div>

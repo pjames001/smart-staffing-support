@@ -108,6 +108,8 @@ import elia from '@/public/bios/elia-lakkis.png'
 
 
 
+
+
 export const services = [
   { id: 1, link: '/back-office-support', image: backOfficeSupport, title: 'Back Office Support', content: 'This is the content of the first post.' },
   { id: 2, link: '/automation-and-ai', image: ai, title: 'Automation and AI', content: 'This is the content of the second post. image: ,' },
@@ -117,7 +119,7 @@ export const services = [
   { id: 6, link: '/technical-support', image: technicalSupport, title: 'Technical Support', content: 'This is the content of the third post.' },
   { id: 7, link: '/email-and-chat-support', image: email, title: 'Email and Chat Support', content: 'This is the content of the third post.' },
   { id: 8, link: '/answering-services', image: answering, title: 'Answering Services', content: 'This is the content of the third post.' },
-  { id: 9, link: '/paralegal-and-legal-services', image: legal, title: 'Legal Services', content: 'This is the content of the third post.' },
+  { id: 9, link: '/legal-services', image: legal, title: 'Legal Services', content: 'This is the content of the third post.' },
   { id: 10, link: '/health-care-and-insurance', image: insurance, title: 'Health Care and Insurance', content: 'This is the content of the third post.' },
   { id: 11, link: '/collection-services', image: debtCollection, title: 'Collection Services', content: 'This is the content of the third post.' },
   { id: 12, link: '/contact', image: more, title: 'Explore More', content: 'This is the content of the third post.' },
@@ -241,7 +243,7 @@ export const servicesPages = [
     slug: 'paralegal-and-legal-services',
     title: 'Paralegal And Legal Services',
     slogan: 'Comprehensive Assistance for Your Legal Team',
-    video: '/paralegal-and-legal/Paralegal-and-Legal-Support_Final.mp4',
+    video: '/paralegal-and-legal/Paralegal-and-Legal-Support.mp4',
     slogan2: 'At Smart Staffing Support, our cost-effective paralegal and legal support services offer improvement for law firms and legal departments in efficiency, scalability, and cash flow. As a top outsourcing company, we offer BPO services including comprehensive legal support outsourcing to businesses in the US, Africa, India, and the Philippines.',
     image1: paralegalAndLegal1,
     title2: 'Customized Solutions for Maximum Results',
@@ -456,7 +458,6 @@ export const industriesPages = [
 export const bio = [
   {
     id: 1,
-    slug: 'mark-hakim',
     name: 'Mark Hakim',
     position: 'CEO',
     office: 'California Office',
@@ -466,7 +467,6 @@ export const bio = [
   },
   {
     id: 2,
-    slug: 'jonathan-oswald',
     name: 'Jonathan Oswald',
     position: 'President',
     office: 'California Office',
@@ -476,7 +476,6 @@ export const bio = [
   },
   {
     id: 3,
-    slug: 'jonathan-teperson',
     name: 'Jonathan Teperson',
     position: 'In-House Counsel Chief Compliance Officer',
     office: 'California Office',
@@ -486,7 +485,6 @@ export const bio = [
   },
   {
     id: 4,
-    slug: 'paula-delmo',
     name: 'Paula Delmo',
     position: 'Vice President',
     office: 'Davao Office',
@@ -496,7 +494,6 @@ export const bio = [
   },
   {
     id: 5,
-    slug: 'jamie-torres',
     name: 'Jamie Torres',
     position: 'Sales Manager',
     office: 'Davao Office',
@@ -506,7 +503,6 @@ export const bio = [
   },
   {
     id: 6,
-    slug: 'cathy-cruz',
     name: 'Cathy Cruz',
     position: 'Client Services Supervisor',
     office: 'Davao Office',
@@ -516,7 +512,6 @@ export const bio = [
   },
   {
     id: 7,
-    slug: 'toni-yap',
     name: 'Toni Yap',
     position: 'Administration Manager',
     office: 'Davao Office',
@@ -526,7 +521,6 @@ export const bio = [
   },
   {
     id: 8,
-    slug: 'janice-jugarap',
     name: 'Janice Jugarap',
     position: 'Team Leader',
     office: 'Davao Office',
@@ -536,8 +530,7 @@ export const bio = [
   },
   {
     id: 12,
-    slug: 'ruhi-suttarwala',
-    name: 'Ruhi Suttarwala',
+    name: 'RUHI SUTTARWALA',
     position: 'Director',
     office: 'Nairobi office',
     description: 'With over a decade of experience in the BPO sector, Mrs. Ruhi Suttarwala has always been driven by the transformative power of teamwork and innovation. For her, working at Smart Staffing Support isn’t just about streamlining processes and maximizing output; it’s about creating a culture where every individual feels empowered to present their best ideas and make a real impact. \n \nCathy fulfills her  hobbies in her  free time.  She enjoy working out and her next plan is to train herself in boxing and mixed martial art. She also loves  team games such as paintball and airsoft because it increase her active listening skills and teach her how to compromise and collaborate. \n \nThroughout her journey with Smart Staffing Support, She has made it her mission to ensure that our teams don’t just meet, but exceed the expectations set for them. Mrs. Ruhi Suttarwala believes in operating not just as a business unit, but as a collective of thinkers, innovators, and problem solvers. It’s been her passion to cultivate an environment where every team member feels valued, challenged, and inspired to contribute towards our shared goals. She believes that together, we’re not just shaping the future of BPOs; we’re crafting the blueprint for excellence. \n \nWhen She’s not steering our team towards excellence at Smart Staffing Support, Mrs. Suttarwala loves to embrace the outdoors. Running and cycling are more than just pastimes for her; they’re a reflection of her beliefs in constantly moving forward and challenging oneself.',
@@ -546,7 +539,6 @@ export const bio = [
   },
   {
     id: 13,
-    slug: 'christine-chemosit',
     name: 'Christine Chemosit',
     position: 'Vice President',
     office: 'Nairobi office',
@@ -556,7 +548,6 @@ export const bio = [
   },
   {
     id: 14,
-    slug: 'dan-jobs',
     name: 'Dan Jobs',
     position: 'Office Manager',
     office: 'Nairobi office',
@@ -566,7 +557,6 @@ export const bio = [
   },
   {
     id: 15,
-    slug: 'george-tayler',
     name: 'George Tayler',
     position: 'Quality Assurance Manager',
     office: 'Nairobi office',
@@ -576,7 +566,6 @@ export const bio = [
   },
   {
     id: 16,
-    slug: 'chris-motari',
     name: 'Chris Motari',
     position: 'IT Manager',
     office: 'Nairobi office',
@@ -586,7 +575,6 @@ export const bio = [
   },
   {
     id: 17,
-    slug: 'elia-lakkis',
     name: 'ELIA LAKKIS',
     position: 'Branch Manager',
     office: 'Beirut Office',
@@ -595,4 +583,4 @@ export const bio = [
     img: elia
   },
   
-]
+] 

@@ -42,7 +42,7 @@ const page = async ({params}) => {
           <p className="text-gray-600 text-lg sm:text-xl leading-relaxed">
             {service.slogan}
           </p>
-          <CTA link="/contact" text="REACH OUT NOW!" />
+          <CTA link="/contact" text="REACH OUT NOW!" className="hover:text-white" />
         </div>
 
         {/* Image Section */}

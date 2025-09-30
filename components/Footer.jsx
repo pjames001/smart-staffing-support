@@ -47,7 +47,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full min-h-[50vh] bg-neutral-800 pt-10 text-white">
-      <div className="flex xl:flex-row flex-col justify-center xl:items-start items-center gap-20 mb-6">
+      <div className="flex xl:flex-row flex-col justify-center xl:items-start items-center gap-20 xl:text-left text-center mb-6">
         <div>
           <Image src={logo} alt="logo" width={250} />
         </div>
